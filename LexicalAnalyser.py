@@ -3,7 +3,7 @@ import re
 keywords = {"if", "else", "while", "int", "return"}
 
 def lexical_analyzer(code):
-    tokens = re.findall(r'[a-zA-Z_]\w*|\d+|[+\-*/=]', code)
+    tokens = re.findall(r'[a-zA-Z_]\w*|\d+|[+\-*/=]', code
 
     for token in tokens:
         if token in keywords:

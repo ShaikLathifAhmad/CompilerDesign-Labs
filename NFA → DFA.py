@@ -19,3 +19,4 @@ def nfa_to_dfa(nfa):
                 if new_state not in dfa:
                     unmarked.append(new_state)
     return dfa
+    

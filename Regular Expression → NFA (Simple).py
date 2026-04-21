@@ -13,3 +13,4 @@ def regex_to_nfa(regex):
 
 nfa = regex_to_nfa('a')
 print(nfa.states)
+
